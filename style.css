@@ -88,11 +88,7 @@
     .col-lg-12 {width: 100%;}
 }
 
-@media (min-width: 376px){
-   .card{
-      height: 400px;
-   }
-}
+ 
 
  *{
     margin: 0;
@@ -148,6 +144,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin:auto;
  }
 
   
@@ -157,7 +154,7 @@
     background-color: #ffffff;
     position: relative;
     padding: 20px;
-    height: 400px;
+    height: 60vh;
     
     box-shadow:  10px 10px black;
     border-radius: 15px;
@@ -179,7 +176,7 @@
     display: flex;
     align-items: center; 
     position: relative;
-     
+    height: 20%;
     
  }
  .box{
