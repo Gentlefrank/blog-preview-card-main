@@ -112,6 +112,27 @@
     color: black; 
  }
 
+ .figTree-Light {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .figTree-Light-Bold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+ .figTree-Bold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
  .container {
     
     padding: 10px;
@@ -137,7 +158,8 @@
  .card-footer {
     display: flex;
     align-items: center; 
-   
+    position: relative;
+    bottom: 10px;
  }
  .box{
     background-color:#F4D04E ;
@@ -157,7 +179,7 @@
     height: 100%;
  }
  .user_img{
-     margin-right: 10px;
+     margin-right: 15px;
  }
 
  .l_button {
