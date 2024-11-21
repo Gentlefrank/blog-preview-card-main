@@ -134,7 +134,7 @@
   }
 
  .container {
-    
+     
     padding: 10px;
  }
 
@@ -153,6 +153,7 @@
     min-height: 500px;
     box-shadow:  10px 10px black;
     border-radius: 25px;
+    align-items: center;
  }
 
  .card-footer {
